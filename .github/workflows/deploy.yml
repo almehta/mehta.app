@@ -3,9 +3,9 @@ name: Deploy Docs to S3
 on:
   push:
     branches:
-    - main
-  paths:
-    - 'docs/**'
+      - main
+    paths:
+      - 'docs/**'
 
 permissions:
   id-token: write
